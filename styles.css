@@ -1,0 +1,87 @@
+body {
+    text-align: center;
+    margin: 0px;
+    color: #ffffff;
+    text-shadow: 0 0 1px #000000;
+}
+
+#info:hover {
+    color: #242423;    
+}
+.hero {
+    background: url("http://skift.com/wp-content/uploads/2012/08/839416240_f9e4fb5e52_o.jpg");
+    padding: 150px;
+    margin: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#to-do {
+    margin: 0px;
+    padding: 50px 0px;
+    background: #EBFCFF;
+    border: 1px solid #DBF5FA;
+    color: #002329;
+    text-shadow: 0 0 1px #DBF5FA;   
+}
+
+.img {
+    width: 170px;
+    margin: 25px;
+    border-radius: 100px;
+    border: 1px solid #ffffff;
+}
+
+#food {
+    width: 170px;
+    height: 170px;
+    background-image: url("https://duyt4h9nfnj50.cloudfront.net/resized/1538750162081-w2880-de.jpg");
+    background-size: cover;
+}
+
+#camel {
+    background-image: url("https://i.natgeofe.com/n/9c96f18f-788a-4350-b168-a3a5b0a1cfe5/somali-camel-culture-02_4x3.jpg");
+    background-size: cover;
+    width: 170px;
+    height: 170px;
+}
+
+#sea-info, #food-info, #camel-info {
+    font-size: 14px;
+}
+
+#flex-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-box {
+    background: #DBF5FA;
+}
+
+.guide {
+    margin: 100px;
+    text-shadow: 0 0 1px #2ec4b6;
+    color: #2ec4b6;
+}
+
+#guide-text:hover {
+    color: #523384;
+}
+#ending {
+    margin: 70px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #cbf3f0;
+    margin: 0px;
+    padding: 50px 30px 0px;
+}
+
+#guide-img {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #2ec4b6;
+    object-fit: cover;  
+    border-radius: 100px;
+}
